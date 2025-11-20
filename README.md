@@ -28,3 +28,10 @@ Then open http://localhost:3000 to use the lesson. Progress is saved per browser
 ## Notes
 - The experience assumes a hardware keyboard. On small/mobile viewports a reminder banner appears.
 - No accounts or backend services are used; everything runs client-side.
+
+## Deploying to GitHub Pages
+Static exports are enabled via `next.config.mjs`. A GitHub Actions workflow (`.github/workflows/deploy.yml`) builds the site with
+`NEXT_PUBLIC_BASE_PATH` set to the repository name (for example `/Typing-Test`) and publishes the `out` directory to GitHub Pages.
+
+Deploy manually or on pushes to `main` by triggering the **Deploy to GitHub Pages** workflow in the Actions tab. The built site
+will be available at `https://<your-username>.github.io/<repository-name>/`.
