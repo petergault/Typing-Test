@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Quill Typing icon">
+  <rect width="64" height="64" rx="12" fill="#0ea5e9" />
+  <rect x="12" y="24" width="40" height="16" rx="4" fill="#e0f2fe" />
+  <rect x="16" y="28" width="8" height="8" rx="2" fill="#f97316" />
+  <rect x="40" y="28" width="8" height="8" rx="2" fill="#3b82f6" />
+  <path d="M24 20c6-6 10-6 16 0" stroke="#0f172a" stroke-width="3" fill="none" stroke-linecap="round" />
+  <circle cx="32" cy="44" r="4" fill="#0f172a" />
+</svg>

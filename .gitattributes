@@ -1,0 +1,5 @@
+# Normalize line endings and treat common assets as text
+* text=auto eol=lf
+
+# Keep SVG assets diffable for PR tooling
+*.svg text
